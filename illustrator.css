@@ -56,3 +56,44 @@ a {
 a:hover {
     text-decoration: underline;
 }
+
+.container {
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.module {
+    display: none;
+}
+
+.active {
+    display: block;
+}
+
+/* Estilos para los botones de navegación */
+.nav-buttons {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.nav-button {
+    padding: 10px 20px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+/* Estilos para los videos */
+video {
+    max-width: 100%;
+}
+
+/* Estilos para imágenes */
+img {
+    max-width: 100%;
+    height: auto;
+}
